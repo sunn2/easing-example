@@ -7,7 +7,7 @@ function setup() {
 }
 
 function draw() {
-    background(3, 244, 252); // background를 draw 안에 -> 궤적 안 남게
+    background(200, 244, 252); // background를 draw 안에 -> 궤적 안 남게
     let targetX = mouseX;
     x += (targetX - x) * easing; // x = x + (targetX - x) * easing
 
